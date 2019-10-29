@@ -8,7 +8,11 @@ class Shoe
   end
 
   def condition
-    puts "New"
+    @condition
+  end
+
+  def condition= (new_condition)
+    @condition = new_condition
   end
 
 end
